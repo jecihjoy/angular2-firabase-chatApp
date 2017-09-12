@@ -5,9 +5,9 @@ input#message {
     outline:none;
     box-shadow:none;
     color: white;
-    font-size: 250%x;
-    font-weight:300;
-    margin-bottom: 3em;
+    font-size: 200%;
+    font-weight:500;
+    margin-bottom: 25px;
     padding:1.2em 0;
 }
 
@@ -30,7 +30,7 @@ input#message {
 }
 
 .chat-container a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight:bold;
     color:black;
     font-size:150%;

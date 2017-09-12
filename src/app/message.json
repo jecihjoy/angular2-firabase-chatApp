@@ -13,7 +13,7 @@
   },
    {
     "message":"how is everyone here",
-    "user":"damian"
+    "name":"damian"
   },
    {
    "message":"when are yu coming home",
@@ -21,6 +21,6 @@
   },
    {
     "message":"when will yu teach me angular",
-    "user":"joylyne"
+    "name":"joylyne"
   }
 ]

@@ -1,14 +1,15 @@
-<button type="button" (click) = 'login()' *ngIf = '!user' class="btn btn-light-blue btn-lg btn-block">Login With Google</button>
+
 
 <div class="row columns">
-  
+<button type = "button" (click) = 'login()' *ngIf = 'user' class = "btn btn-light-blue btn-lg btn-block"> Login With Google </button>
+<button type="button" (click) = 'logout()' *ngIf = 'user' class="btn btn-light-blue btn-lg btn-block">click to logout</button>
 
-  <input type="text" id="message" *ngIf = 'user'  value = "Chat here....." (keyup.enter)="sendMessage($event.target.value)" [(ngModel)]="msgVal" />
+  <input type="text" id="message" *ngIf = 'user' [(ngModel)] = 'myval' [placeholder] = "placeholder" (keyup.enter)="sendMessages($event.target.value)" [(ngModel)]="msgVal" />
 
-    <div class="chat-container" *ngFor = 'let message of messages'>
-      <a > {{message.name}}</a>
-     
-      <p>{{message.message}}</p>
+      <div class="chat-container" *ngFor = 'let message of messages'>
+        <a > {{message.name}}</a>
+      
+        <p>{{message.message}}</p>
 
-    </div>
+      </div>
 </div>

@@ -16,4 +16,6 @@ button {
     font-size:1.2em;
     margin-bottom: 30px;
     cursor:pointer;
+    font-style: italic;
+    letter-spacing:4px;
 }

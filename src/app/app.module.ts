@@ -6,7 +6,6 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import {MdCardModule} from '@angular/material';
-import {FirebaseService} from './firebase.service';
 
 import { AppComponent } from './app.component';
 
@@ -34,7 +33,6 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     MdCardModule
   ],
-  providers: [FirebaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
